@@ -181,3 +181,101 @@ firstNonConsecutive([1,2,3,4,5,6])
 
 
 //📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+//This is an easy twist to the example kata (provided by Codewars when learning how to create your own kata).
+//Add the value "codewars" to the array websites/Websites 1,000 times.
+// Task 🦉 ➤ 1️⃣1️⃣
+var websites = [String]()
+func KataTwist_1() {
+  for _ in 0...999 {
+      websites.append("codewars")
+  }
+}
+KataTwist_1()
+// 🔥 Best 🔥
+func KataTwist_2() {
+  Array(repeating: "codewars", count: 1000)
+}
+KataTwist_2()
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 1️⃣2️⃣
+//When provided with a number between 0-9, return it in words.
+//If your language supports it, try using a switch statement.
+func switchItUp(_ number: Int) -> String {
+    var answer = "some"
+    
+    switch number {
+    case 0: answer = "Zero"
+    case 1: answer = "One"
+    case 2: answer = "Two"
+    case 3: answer = "Three"
+    case 4: answer = "Four"
+    case 5: answer = "Five"
+    case 6: answer = "Six"
+    case 7: answer = "Seven"
+    case 8: answer = "Eight"
+    case 9: answer = "Nine"
+    default : "out of range"
+    }
+    return answer
+}
+switchItUp(6)
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 1️⃣3️⃣
+//Create a function that takes 2 integers in form of a string as an input, and outputs the sum (also as a string):
+func sum_str(_ a:String, _ b:String) -> String {
+    
+    String( (Int(a) ?? 0) + (Int(b) ?? 0) )
+
+//    let x: Int? = Int(a)
+//    let y: Int? = Int(b)
+//    let z = (x ?? 0) + (y ?? 0)
+//
+//    return String(z)
+}
+sum_str("-", "5")
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 1️⃣4️⃣
+// Build a function that returns an array of integers from n to 1 where n>0.
+func reverseSeq_1(n: Int) -> [Int] {
+    var array = [5]
+    for item in 1..<n {
+        array.insert(item, at: 1)
+    }
+    return array
+}
+reverseSeq_1(n: 5)
+// 🔥 Best 🔥
+func reverseSeq_2(n: Int) -> [Int] {
+    (1...n).reversed()
+}
+reverseSeq_2(n: 5)
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 1️⃣5️⃣
+//You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+func check_1<T: Equatable>(_ a: [T], _ x: T) -> Bool {
+    var some = Bool()
+
+    for item in a {
+        if item == x {
+            some = true
+        }
+    }
+    return some
+}
+check_1(["y", "x"], "y")
+// 🔥 Best 🔥
+func check_2<T: Equatable>(_ a: [T], _ x: T) -> Bool {
+    a.contains(x)
+}
+check_2(["y", "x"], "y")
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 1️⃣6️⃣
+//This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+func simpleMultiplication_1(_ num: Int) -> Int {
+    num % 2 == 0 ? num * 8 : num * 9
+}
+simpleMultiplication_1(6)
+func simpleMultiplication_2(_ num: Int) -> Int { (8 + num % 2) * num }
+simpleMultiplication_2(6)
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 1️⃣7️⃣
