@@ -1,6 +1,7 @@
 import Foundation
 
-// My solution tasks from  - CodeWars
+// My solution tasks from  - CodeWars 🦉
+
 
 
 //📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
@@ -166,20 +167,11 @@ findDifference_2([2, 2, 3], [5, 4, 1])
 // Task 🦉 ➤ 🔟 ⚡️
 //Your task is to find the first element of an array that is not consecutive. If the whole array is consecutive then return null
 func firstNonConsecutive (_ arr: [Int]) -> Int? {
-
     var i: Int?
 
-    if arr.count == arr.endIndex  && arr.reduce(0, +) == arr.count / arr.endIndex  {
-        i = nil
-    } else {
-        
-    }
     return i
 }
 firstNonConsecutive([1,2,3,4,5,6])
-// 🔥 Best 🔥
-
-
 //📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
 //This is an easy twist to the example kata (provided by Codewars when learning how to create your own kata).
 //Add the value "codewars" to the array websites/Websites 1,000 times.
@@ -279,3 +271,5 @@ func simpleMultiplication_2(_ num: Int) -> Int { (8 + num % 2) * num }
 simpleMultiplication_2(6)
 //📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
 // Task 🦉 ➤ 1️⃣7️⃣
+
+
