@@ -271,5 +271,37 @@ func simpleMultiplication_2(_ num: Int) -> Int { (8 + num % 2) * num }
 simpleMultiplication_2(6)
 //📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
 // Task 🦉 ➤ 1️⃣7️⃣
-
-
+//Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+//Return your answer as a number.
+func sumMix_1(_ arr: [Any]) -> Int {
+    
+    var y = [String]()
+    var z = [Int]()
+    
+    for item in arr {
+        if let x:String = item as? String {
+            y.append(x)
+        } else if let y:Int = item as? Int {
+            z.append(y)
+        }
+    }
+    return z.reduce(0, +) + y.compactMap { Int($0) }.reduce(0, +)
+}
+sumMix_1(["1", "5", "8", 8, 9, 9, 2, "3"])
+// 🔥 Best 🔥
+func sumMix_2(_ arr: [Any]) -> Int {
+    arr.reduce(0, { $0 + (Int("\($1)") ?? 0) })
+}
+sumMix_2(["1", "5", "8", 8, 9, 9, 2, "3"])
+//-------------------------------------------------------
+let ArrayOne = ["1","3","5","4","4","5"]
+let ArrayTwo: [Any] = ["1", "5", "8", 8, 9, 9, 2, "3"]
+let some1 = ArrayOne.map { Int($0) }  // different some1? op.
+some1
+let some2 = ArrayOne.compactMap { Int($0) } // some2!
+some2
+let some3 = ArrayTwo.compactMap { Int("\($0)") } // !
+some3
+//-------------------------------------------------------
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 1️⃣7️⃣

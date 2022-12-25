@@ -30,4 +30,12 @@ func menFromBoys_2(_ arr: [Int]) -> [Int] {
 }
 menFromBoys_2([-1, 0, -3, 0, 12, 99, 2, -5, -4, 33, 34, 44, 55, 32, 48, 77, -1, -12, 22, 13, 3, 7, 2, 17])
 //📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
-
+// Task 🦉 ➤ 2️⃣
+//Write function heron which calculates the area of a triangle with sides a, b, and c.
+func heron(_ a: Double, _ b: Double, _ c: Double) -> Double {
+    let p = (a + b + c) / 2
+    return sqrt(p * (p - a) * (p - b) * (p - c))
+}
+heron(13, 14, 15)
+//📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌📌
+// Task 🦉 ➤ 3️⃣
