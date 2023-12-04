@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CA88C502B171B65002346AB /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA88C4F2B171B65002346AB /* BubbleSort.swift */; };
+		2CCB6FE82B19BD6500E7AFE3 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6FE72B19BD6500E7AFE3 /* LinearSearch.swift */; };
 		2CD9E9EA2B11D6A0000ACE2D /* AlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E9E92B11D6A0000ACE2D /* AlgorithmsApp.swift */; };
 		2CD9E9EC2B11D6A0000ACE2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E9EB2B11D6A0000ACE2D /* ContentView.swift */; };
 		2CD9E9EE2B11D6A2000ACE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD9E9ED2B11D6A2000ACE2D /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		2CA88C4F2B171B65002346AB /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		2CCB6FE72B19BD6500E7AFE3 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
 		2CD9E9E62B11D6A0000ACE2D /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD9E9E92B11D6A0000ACE2D /* AlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsApp.swift; sourceTree = "<group>"; };
 		2CD9E9EB2B11D6A0000ACE2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		2CD9E9F92B11D79A000ACE2D /* Algorithms Else */ = {
 			isa = PBXGroup;
 			children = (
+				2CCB6FE72B19BD6500E7AFE3 /* LinearSearch.swift */,
 				2CD9E9FA2B11D7C9000ACE2D /* BinarySearch.swift */,
 				2CA88C4F2B171B65002346AB /* BubbleSort.swift */,
 			);
@@ -169,6 +172,7 @@
 			files = (
 				2CD9E9EC2B11D6A0000ACE2D /* ContentView.swift in Sources */,
 				2CD9E9EA2B11D6A0000ACE2D /* AlgorithmsApp.swift in Sources */,
+				2CCB6FE82B19BD6500E7AFE3 /* LinearSearch.swift in Sources */,
 				2CD9E9FB2B11D7C9000ACE2D /* BinarySearch.swift in Sources */,
 				2CA88C502B171B65002346AB /* BubbleSort.swift in Sources */,
 			);

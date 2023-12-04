@@ -9,6 +9,7 @@ import Foundation
 
 //🔥 Binary search is a search algorithm that finds the position of a target value within a sorted array.
 //🔥 It works by repeatedly dividing the search interval in half.
+//🔥 The time complexity of the Binary Search algorithm is O(log n), where n is the number of elements in the sorted array.
 
 func binarySearch<T: Comparable>(_ array: [T], target: T) -> Int? {
     /// Step 1️⃣ Input Validation: Check if the array is not empty

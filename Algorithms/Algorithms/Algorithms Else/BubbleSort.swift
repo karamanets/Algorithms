@@ -9,6 +9,8 @@ import Foundation
 
 //🔥 Simple Bubble sort Algorithm
 //🔥 Compares adjacent elements, and swaps them if they are in the wrong order.
+//🔥 The time complexity of the Bubble Sort algorithm is O(n^2) in the worst and average cases, and O(n) in the best case.
+//🔥 Bubble Sort is not considered a practical sorting algorithm for large datasets due to its quadratic time complexity.
 
 
 func bubbleSort<T: Comparable>(array: inout [T]) {
