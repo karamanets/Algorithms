@@ -14,6 +14,7 @@
 		2CD9E9EE2B11D6A2000ACE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD9E9ED2B11D6A2000ACE2D /* Assets.xcassets */; };
 		2CD9E9F12B11D6A2000ACE2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD9E9F02B11D6A2000ACE2D /* Preview Assets.xcassets */; };
 		2CD9E9FB2B11D7C9000ACE2D /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E9FA2B11D7C9000ACE2D /* BinarySearch.swift */; };
+		2CE4A9ED2B24924000C2674C /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4A9EC2B24924000C2674C /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2CD9E9ED2B11D6A2000ACE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CD9E9F02B11D6A2000ACE2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CD9E9FA2B11D7C9000ACE2D /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		2CE4A9EC2B24924000C2674C /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				2CCB6FE72B19BD6500E7AFE3 /* LinearSearch.swift */,
 				2CD9E9FA2B11D7C9000ACE2D /* BinarySearch.swift */,
 				2CA88C4F2B171B65002346AB /* BubbleSort.swift */,
+				2CE4A9EC2B24924000C2674C /* QuickSort.swift */,
 			);
 			path = "Algorithms Else";
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CD9E9EC2B11D6A0000ACE2D /* ContentView.swift in Sources */,
+				2CE4A9ED2B24924000C2674C /* QuickSort.swift in Sources */,
 				2CD9E9EA2B11D6A0000ACE2D /* AlgorithmsApp.swift in Sources */,
 				2CCB6FE82B19BD6500E7AFE3 /* LinearSearch.swift in Sources */,
 				2CD9E9FB2B11D7C9000ACE2D /* BinarySearch.swift in Sources */,
