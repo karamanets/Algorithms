@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C9683262B31B0E700467850 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9683252B31B0E700467850 /* MergeSort.swift */; };
 		2CA88C502B171B65002346AB /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA88C4F2B171B65002346AB /* BubbleSort.swift */; };
+		2CCB3A2F2B48142500B33858 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB3A2E2B48142500B33858 /* TwoSum.swift */; };
 		2CCB6FE82B19BD6500E7AFE3 /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB6FE72B19BD6500E7AFE3 /* LinearSearch.swift */; };
 		2CD9E9EA2B11D6A0000ACE2D /* AlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E9E92B11D6A0000ACE2D /* AlgorithmsApp.swift */; };
 		2CD9E9EC2B11D6A0000ACE2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E9EB2B11D6A0000ACE2D /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		2C9683252B31B0E700467850 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		2CA88C4F2B171B65002346AB /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		2CCB3A2E2B48142500B33858 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		2CCB6FE72B19BD6500E7AFE3 /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
 		2CD9E9E62B11D6A0000ACE2D /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD9E9E92B11D6A0000ACE2D /* AlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsApp.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		2CD9E9F82B11D75C000ACE2D /* LeetCode 75 Question */ = {
 			isa = PBXGroup;
 			children = (
+				2CCB3A2E2B48142500B33858 /* TwoSum.swift */,
 			);
 			path = "LeetCode 75 Question";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				2CCB6FE82B19BD6500E7AFE3 /* LinearSearch.swift in Sources */,
 				2C9683262B31B0E700467850 /* MergeSort.swift in Sources */,
 				2CD9E9FB2B11D7C9000ACE2D /* BinarySearch.swift in Sources */,
+				2CCB3A2F2B48142500B33858 /* TwoSum.swift in Sources */,
 				2CA88C502B171B65002346AB /* BubbleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
